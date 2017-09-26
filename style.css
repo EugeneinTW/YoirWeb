@@ -3,7 +3,7 @@
 }
 
 #nav {
-  background-color: #ff6600;
+  background-color: #00bbff;
   padding: 10px;
   position: fixed;
   top:0;
@@ -14,8 +14,9 @@
 
 #content {
   position: relative;
-  top:78px;
+  top:20px;
   padding: 15px;
+  background-color: #99ffff;
 }
 
 #content > .container >div {
@@ -32,7 +33,7 @@
 }
 
 .menu {
-  float: right;
+  float: left;
 }
 .menu li {
   display: inline-block;
@@ -45,7 +46,7 @@
 
   list-style-type: none;
   text-align: center;
-  background-color: #ff6600;
+  background-color: #f5500dd;
   color: #fff;
 }
 
@@ -69,12 +70,13 @@ li:hover a {
 
 #my-avatar {
     /* 標示用，排版完記得拿掉 */
-  float: left;
+  float: top;
   margin-right: 20px;
 }
 
 #my-avatar img{
   width: 200px;
+  border-radius: 100px;
 }
 
 h1 {
@@ -145,7 +147,7 @@ hr {
 }
 
 #contact-me{
-  
+
 }
 
 form.contact-form{
